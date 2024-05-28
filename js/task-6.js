@@ -24,10 +24,12 @@ function createBoxes() {
   
   boxesContainer.innerHTML = '';
   boxesContainer.append(...boxes);
+
 }
 
 function destroyBoxes() {
   boxesContainer.innerHTML = '';
+  input.value = '';
 }
 
 function getRandomHexColor() {

@@ -15,6 +15,34 @@ body {
   padding: 16px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.task-list {
+  padding: 25px;
+  
+}
+.task-item:hover,
+.task-item:focus {
+  color: #ff7070;
+}
+.task-item {
+  font-size: 24px;
+  color: #4e75ff;
+  font-weight: 700;
+}
+.go-home {
+  font-size: 18spx;
+  color: #4e75ff;
+  font-weight: 700;
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -47,6 +75,7 @@ body {
   margin: 0;
   margin-bottom: 16px;
 }
+
 .list-item {
   display: flex;
   align-items: center;
